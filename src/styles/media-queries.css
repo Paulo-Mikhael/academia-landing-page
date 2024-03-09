@@ -5,4 +5,41 @@
     main{
         width: 98.7vw;
     }
+    section.section-two{
+        width: 98.7vw;
+    }
+    section.section-three{
+        width: 98.7vw;
+    }
+    section.section-four{
+        width: 98.7vw;
+    }
+    section.section-five{
+        width: 98.7vw;
+    }
+    section.section-six{
+        width: 98.7vw;
+    }
+    section.section-seven{
+        width: 98.7vw;
+    }
+    section.section-eight{
+        width: 98.7vw;
+    }
+    section.final-section{
+        width: 98.7vw;
+    }
+}
+@media screen and (max-width:1050px){
+    main{
+        & .main-content{
+            & .main-image{
+                display: none;
+            }
+            & .main-message{
+                justify-content: center;
+                width: 90%;
+            }
+        }
+    }
 }
